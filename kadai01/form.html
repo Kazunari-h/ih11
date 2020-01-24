@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>フォームの練習1</title>
+</head>
+
+<body>
+    <form action="test.php" method="POST">
+        <div class="box">
+            <h2>テキスト入力</h2>
+            <input type="text" value="おはよう">
+        </div>
+
+        <div class="box">
+            <h2>チェックボックス</h2>
+            <input type="checkbox" name="food" value="A"> 油そば<br>
+            <input type="checkbox" name="food" value="B"> うなぎ<br>
+            <input type="checkbox" name="food" value="C"> 馬刺し<br>
+            <input type="checkbox" name="food" value="D"> 白い恋人<br>
+        </div>
+
+        <div class="box">
+            <h2>チェックボックス・デフォルト選択</h2>
+            <input type="checkbox" name="food" value="A"> 油そば<br>
+            <input type="checkbox" name="food" value="B"> うなぎ<br>
+            <input type="checkbox" name="food" value="C" checked> 馬刺し<br>
+            <input type="checkbox" name="food" value="D"> 白い恋人<br>
+        </div>
+
+        <div class="box">
+            <h2>ラジオボタン</h2>
+            <input type="radio" name="food2"> さつまいも <br>
+            <input type="radio" name="food2" checked> 小籠包 <br>
+            <input type="radio" name="food2"> 火鍋 <br>
+            <input type="radio" name="food2"> 鳩サブレー <br>
+        </div>
+        <div class="box">
+            <h2>プルダウンメニュー</h2>
+            <select name="city">
+                <option value="1">横浜市</option>
+                <option value="2">函館市</option>
+                <option value="3">新座市</option>
+                <option value="4">高槻市</option>
+                <option value="5">多摩市</option>
+            </select>
+        </div>
+
+        <div class="box">
+            <h2>パスワード入力</h2>
+            <input type="password" name="password_text">
+        </div>
+
+        <div class="box">
+            <h2>プルダウンメニュー</h2>
+            <select name="city">
+                <option value="1">横浜市</option>
+                <option value="2">函館市</option>
+                <option value="3">新座市</option>
+                <option value="4">高槻市</option>
+                <option value="5">多摩市</option>
+            </select>
+        </div>
+
+        <div class="box">
+            <h2>お年玉いくら欲しい？</h2>
+            <input type="text">
+            <input type="button" value="欲しい！">
+        </div>
+
+        <div class="box">
+            <h2>本当はいくら欲しい？</h2>
+            <input type="text" value="10円">
+            <input type="submit" value="欲しい！">
+        </div>
+    </form>
+</body>
+
+</html>
